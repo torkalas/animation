@@ -1,0 +1,151 @@
+/*Меню*/
+#custom-bootstrap-menu.navbar-default
+{
+    /*Размер шрифта меню - font_size_menu*/
+    font-size: 19px;
+
+    /*Цвет и прозрачность фона меню - background_color_menu*/
+    background-color: rgba(219, 40, 40, 1);
+
+    /*Цвет и прозрачность фона с градиентом меню. Направление градиента - background_color_gradient_menu_position*/
+    /*Цвет и прозрачность фона с градиентом меню. Цвет 1 - background_color_gradient_menu_1*/
+    /*Цвет и прозрачность фона с градиентом меню. Цвет 2 - background_color_gradient_menu_2*/
+    background: linear-gradient(to bottom, rgba(56, 40, 40, 1) 0%, rgba(219, 40, 40, 1) 100%);
+
+    /*Картинка фона меню (ее высота будет задавать высату всего меню) - background_image_menu_url*/
+
+    /*Прозрачность картинки фона меню - opacity_background_image_menu*/
+
+/*Рамка (бордюр) меню*/
+
+    /*Толщина рамки меню - border_width_menu*/
+    border-width: 3px;
+
+    /*Радиус рамки меню - border_radius_menu*/
+    border-radius: 33px;
+
+    /*Цвет и прозрачность и прозрачность рамки меню - border_color_menu*/
+    border-color: rgba(186, 123, 123, 1);
+}
+/*Бренд*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+
+    /*Цвет и прозрачность шрифта бренда - font_color_brand*/
+    color: rgba(61, 204, 125, 1);
+
+    /*Размер шрифта бренда - font_size_brand*/
+    font-size: 19px;
+
+    /*Картинка бренда (ее высота будет задавать высату всего меню) - brand_url*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand:focus
+{
+    /*Цвет и прозрачность бренда при нажатии - font_color_brand_focus*/
+    color: rgba(219, 40, 40, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand:hover
+{
+    /*Цвет и прозрачность бренда при наведениии - font_color_brand_hover*/
+    color: rgba(219, 40, 40, 1);
+}
+/*Кнопки меню*/
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a
+{
+    /*Цвет и прозрачность шрифта кнопки меню - font_color_key_menu*/
+    color: rgba(199, 175, 37, 1);
+
+    /*Цвет и прозрачность фона кнопки меню - background_color_key_menu*/
+    background-color: rgba(186, 123, 123, 1);
+
+    /*Цвет и прозрачность фона с градиентом кнопки меню. Направление градиента - background_color_gradient_key_menu_position*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню. Цвет 1 - background_color_gradient_key_menu_1*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню. Цвет 2 - background_color_gradient_key_menu_2*/
+    background: linear-gradient(to bottom, rgba(46, 26, 26, 1) 0%, rgba(186, 123, 123, 1) 100%);
+
+    /*Радиус кнопки меню - border-radius_key_menu*/
+    border-radius: 5px;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover
+{
+    /*Цвет и прозрачность шрифта кнопки меню при наведении - font_color_key_menu_hover*/
+    color: rgba(33, 198, 207, 1);
+    /*Цвет и прозрачность фона кнопки меню при наведении - background_color_key_menu_hover*/
+    background-color: rgba(227, 7, 7, 1);
+    /*Цвет и прозрачность фона с градиентом кнопки меню при наведении. Направление градиента - background_color_gradient_key_menu_position_hover*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню при наведении. Цвет 1 - background_color_gradient_key_menu_1_hover*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню при наведении. Цвет 2 - background_color_gradient_key_menu_2_hover*/
+    background: linear-gradient(to bottom, rgb(239, 242, 97) 0%, rgb(32, 46, 227) 100%);
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus
+{
+    /*Цвет и прозрачность шрифта кнопки меню при нажатии - font_color_key_menu_focus*/
+    color: rgba(33, 198, 207, 1);
+    /*Цвет и прозрачность фона кнопки меню при нажатии - background_color_key_menu_focus*/
+    background-color: rgba(227, 7, 7, 1);
+    /*Цвет и прозрачность фона с градиентом кнопки меню при нажатии. Направление градиента - background_color_gradient_key_menu_position_focus*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню при нажатии. Цвет 1 - background_color_gradient_key_menu_1_focus*/
+    /*Цвет и прозрачность фона с градиентом кнопки меню при нажатии. Цвет 2 - background_color_gradient_key_menu_2_focus*/
+    background: linear-gradient(to bottom, rgba(242, 228, 228, 1) 0%, rgba(227, 7, 7, 1) 100%);
+}
+/*Активная кнопки меню (Зажатая кнопка, указующая раздел в которам находится пользователь)*/
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus
+{
+    /*Цвет и прозрачность шрифта активной кнопки меню - font_color_key_menu_active*/
+    color: rgba(209, 34, 34, 1);
+
+    /*Цвет и прозрачность фона активной кнопки меню - background_color_key_menu_active*/
+    background-color: rgba(71, 18, 230, 1);
+
+    /*Цвет и прозрачность фона с градиентом активной кнопки меню. Направление градиента - background_color_gradient_key_menu_position_active*/
+    /*Цвет и прозрачность фона с градиентом активной кнопки меню. Цвет 1 - background_color_gradient_key_menu_1_active*/
+    /*Цвет и прозрачность фона с градиентом активной кнопки меню. Цвет 2 - background_color_gradient_key_menu_2_active*/
+    background: linear-gradient(to bottom, rgba(158, 41, 41, 1) 0%, rgba(71, 18, 230, 1) 100%);
+}
+/*Кнопка развертки меню*/
+#custom-bootstrap-menu.navbar-default .navbar-toggle
+{
+    /*Цвет и прозрачность рамки кнопки развертки меню - border_color_key_toggle_menu*/
+    border-color: #4712e6;
+
+    /*Толщина рамки кнопки развертки меню - border_width_key_toggle_menu*/
+    border-width: 3px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover
+{
+    /*Цвет и прозрачность фона кнопки развертки меню при наведении (без наведения Фон прозрачный) - background_color_key_toggle_menu_hover*/
+    background-color: #4712e6;
+
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при наведении. Направление градиента - background_color_gradient_key_toggle_menu_position_hover*/
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при наведении. Цвет 1 - background_color_gradient_key_toggle_menu_1_hover*/
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при наведении. Цвет 2 - background_color_gradient_key_toggle_menu_2_hover*/
+    background: linear-gradient(to bottom, rgb(255, 247, 65) 0%, rgb(230, 45, 211) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus
+{
+    /*Цвет и прозрачность фона кнопки развертки меню при нажатии (без нажатия Фон прозрачный) - background_color_key_toggle_menu_focus*/
+    background-color: #19e61f;
+
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при нажатии. Направление градиента - background_color_gradient_key_toggle_menu_position_focus*/
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при нажатии. Цвет 1 - background_color_gradient_key_toggle_menu_1_focus*/
+    /*Цвет и прозрачность фона с градиентом кнопки развертки меню при нажатии. Цвет 2 - background_color_gradient_key_toggle_menu_2_focus*/
+    background: linear-gradient(to bottom, rgb(255, 247, 65) 0%, rgb(230, 45, 211) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar
+{
+    /*Цвет и прозрачность трех горизонтальных рисак в кнопке развертки меню - background_color_icon_bar_key_toggle_menu*/
+    background-color: #000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar
+{
+    /*Цвет и прозрачность трех горизонтальных рисак в кнопке развертки меню при наведении - background_color_icon_bar_key_toggle_menu_hover*/
+    background-color: #db2828;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar
+{
+    /*Цвет и прозрачность трех горизонтальных рисак в кнопке развертки меню при нажатии - background_color_icon_bar_key_toggle_menu_focus*/
+    background-color: #120303;
+}
